@@ -1,0 +1,143 @@
+[
+  {
+    "id": "ai-systems",
+    "type": "course",
+    "title": {
+      "zh": "AI 系統與產品工程",
+      "en": "AI systems & product engineering"
+    },
+    "href": "https://wikinb.kainnne.com/wiki/Learning/ai-systems-engineering/",
+    "tags": [
+      "AI",
+      "Agent",
+      "Azure"
+    ],
+    "units": 38,
+    "tone": "lilac",
+    "icon": "systems",
+    "featured": true
+  },
+  {
+    "id": "frontend",
+    "type": "course",
+    "title": {
+      "zh": "AI 時代的前端基本功",
+      "en": "Frontend foundations in the AI era"
+    },
+    "href": "https://wikinb.kainnne.com/wiki/Learning/ai-first-frontend-foundations/",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "units": 10,
+    "tone": "blue",
+    "icon": "code",
+    "featured": false
+  },
+  {
+    "id": "llm",
+    "type": "course",
+    "title": {
+      "zh": "文字分類與 LLM 應用研究",
+      "en": "Text classification & LLM research"
+    },
+    "href": "https://wikinb.kainnne.com/wiki/Learning/llm-research-course/",
+    "tags": [
+      "LLM",
+      "RAG",
+      "Research"
+    ],
+    "units": null,
+    "tone": "mint",
+    "icon": "nodes",
+    "featured": false
+  },
+  {
+    "id": "suno",
+    "type": "course",
+    "title": {
+      "zh": "Suno Studio 與專輯製作",
+      "en": "Suno Studio & album production"
+    },
+    "href": "https://wikinb.kainnne.com/wiki/Learning/suno-studio-album-production/",
+    "tags": [
+      "Suno",
+      "Audio",
+      "Music"
+    ],
+    "units": null,
+    "tone": "rose",
+    "icon": "music",
+    "featured": false
+  },
+  {
+    "id": "kuse",
+    "type": "course",
+    "title": {
+      "zh": "Kuse AI 實務課程",
+      "en": "Kuse AI practical course"
+    },
+    "href": "https://wikinb.kainnne.com/wiki/Learning/kuse-ai-practical-course/",
+    "tags": [
+      "Kuse",
+      "AI",
+      "Documents"
+    ],
+    "units": null,
+    "tone": "peach",
+    "icon": "book",
+    "featured": false
+  },
+  {
+    "id": "python",
+    "type": "article",
+    "title": {
+      "zh": "Python 程式閱讀與修改",
+      "en": "Reading & changing Python"
+    },
+    "href": "https://wikinb.kainnne.com/wiki/Learning/ai-systems-engineering/b02-python-reading/",
+    "tags": [
+      "Python",
+      "Engineering"
+    ],
+    "units": null,
+    "tone": "blue",
+    "icon": "code",
+    "featured": false
+  },
+  {
+    "id": "mcp",
+    "type": "article",
+    "title": {
+      "zh": "工具契約與 MCP",
+      "en": "Tool contracts & MCP"
+    },
+    "href": "https://wikinb.kainnne.com/wiki/Learning/ai-systems-engineering/n03-tool-contract-and-mcp/",
+    "tags": [
+      "Agent",
+      "MCP"
+    ],
+    "units": null,
+    "tone": "mint",
+    "icon": "nodes",
+    "featured": false
+  },
+  {
+    "id": "foundry",
+    "type": "article",
+    "title": {
+      "zh": "Foundry 聊天與單一 Agent",
+      "en": "Foundry chat & a single agent"
+    },
+    "href": "https://wikinb.kainnne.com/wiki/Learning/ai-systems-engineering/az02-foundry-chat-and-agent/",
+    "tags": [
+      "Azure",
+      "Foundry"
+    ],
+    "units": null,
+    "tone": "lilac",
+    "icon": "systems",
+    "featured": false
+  }
+]

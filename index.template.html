@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant" data-mood="dream">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kain³e · 教學</title><meta name="description" content="Kain³e 的課程、文章與影片教學。">
+<meta name="theme-color" content="#fff8fc"><link rel="canonical" href="{{URL}}">
+<meta property="og:title" content="Kain³e · 教學"><meta property="og:description" content="課程、文章與影片教學。"><meta property="og:type" content="website"><meta property="og:url" content="{{URL}}"><meta property="og:image" content="{{URL}}assets/share.jpg">
+<link rel="icon" href="./assets/mark.png"><link rel="apple-touch-icon" href="./assets/mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Nunito:wght@400;600;700&family=Quicksand:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css"><script type="module" src="./app.js"></script>
+<script type="application/ld+json">{{SCHEMA}}</script>
+</head>
+<body>
+<a class="skip-link" href="#library" data-zh="跳到教學內容" data-en="Skip to lessons">跳到教學內容</a>
+<div class="backdrop" aria-hidden="true"></div>
+<header class="site-header shell">
+<a class="brand" href="{{HOME}}" aria-label="Kain³e 主頁"><img src="./assets/wordmark.svg" width="150" height="50" alt="Kain³e."></a>
+<nav aria-label="主要導覽">
+<a class="home-link" href="{{HOME}}" data-zh="主頁" data-en="Home">主頁</a>
+<button id="language" class="icon-button language" type="button" aria-label="Switch to English">EN</button>
+<button id="theme" class="icon-button" type="button" aria-label="切換深色" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg></button>
+</nav>
+</header>
+<main class="shell" id="library">
+<div class="library-heading"><h1 data-zh="教學" data-en="Learning">教學</h1><a class="ai-link" href="{{AI}}"><span class="ai-avatar" aria-hidden="true">K<sup>3</sup></span><span>Kain³e AI</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
+<div class="library-controls">
+<div class="filters" role="group" aria-label="內容類型">
+<button type="button" data-filter="all" aria-pressed="true" data-zh="全部" data-en="All">全部</button>
+<button type="button" data-filter="course" aria-pressed="false" data-zh="課程" data-en="Courses">課程</button>
+<button type="button" data-filter="article" aria-pressed="false" data-zh="文章" data-en="Articles">文章</button>
+<button type="button" data-filter="video" aria-pressed="false" data-zh="影片" data-en="Videos">影片</button>
+</div>
+<form role="search" class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="query" type="search" autocomplete="off" aria-label="搜尋教學" placeholder="搜尋教學…"><button type="button" id="clear" aria-label="清除搜尋" hidden>×</button></form>
+</div>
+<div id="catalog" class="catalog">{{CARDS}}</div>
+<div id="empty" class="empty" hidden><span class="empty-symbol" aria-hidden="true">⌕</span><p id="empty-label"></p><button type="button" id="reset" data-zh="查看全部" data-en="View all">查看全部</button></div>
+<p id="result-status" class="sr-only" role="status" aria-live="polite"></p>
+</main>
+<footer class="shell"><span>Kain³e.</span><div><a href="https://wikinb.kainnne.com/">WikiNB</a><a href="{{REPO}}">GitHub</a></div></footer>
+<script id="catalog-data" type="application/json">{{DATA}}</script>
+</body></html>
